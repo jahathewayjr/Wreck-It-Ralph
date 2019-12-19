@@ -1,3 +1,85 @@
 body{
-	background-color: red;
+	margin: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+header{
+	background-color: #d14635;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+header h1{
+	color: white;
+	font-size: 40pt;
+}
+
+h1, h2{
+	font-family: 'Press Start 2P', sans-serif;
+	line-height: 120%;
+}
+
+h2{
+	font-size: 30px;
+	color: #d14635;
+	margin-top: 50px;
+	margin-bottom: 0px;
+}
+
+p{
+
+}
+
+a{
+	color: #d14635;
+}
+
+a:hover{
+	color: #483a94;
+}
+
+header img{
+	border-radius: 170px;
+	width: 300px;
+	border: 15px solid white;
+}
+
+main{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px 40px;
+}
+
+main img{
+	max-width: 100%;
+}
+
+footer{
+	background-color: #d14635;
+	color: white;
+	padding: 20px 50px;
+	text-align: center;
+}
+
+footer a{
+	color: white;
+}
+
+footer p{
+	margin: 0;
+}
+
+footer a: hover{
+	opacity: .5;
+	background-color: transparent;
+}
+
+p.caption{
+	color: #999999;
+	font-size: 12pt;
+	font-style: italic;
+	margin-top: 0;
 }
